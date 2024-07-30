@@ -1,5 +1,5 @@
-#Smart movie 
-#fonctionalités 
+## Smart movie 
+## fonctionalités 
 - Générateur de Scénarios Basé sur des Templates (models/scenario_generator.py): Ce module permet de créer des scénarios en utilisant des templates pré-définis, facilitant ainsi la génération rapide de contenus narratifs en remplissant des éléments spécifiques.
 
 - Suivi des Personnages et des Relations (models/character_relationships.py): Ce module extrait et analyse les interactions et les relations entre les personnages dans le scénario, assurant ainsi la cohérence des relations et des interactions à travers le texte.
