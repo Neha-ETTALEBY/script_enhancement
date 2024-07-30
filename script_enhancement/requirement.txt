@@ -5,11 +5,10 @@ transformers
 pour tester les routes :
 curl -X POST http://127.0.0.1:5000/detect_emotions -H "Content-Type: application/json" -d "{\"script\": \"This is a sample script text to detect emotions.\"}"
 
-
 curl -X POST http://127.0.0.1:5000/improve_dialogue -H "Content-Type: application/json" -d "{\"dialogue\": \"This is a sample dialogue text to improve.\"}"
 
 curl -X POST http://127.0.0.1:5000/summarize_scene -H "Content-Type: application/json" -d "{\"scene\": \"This is a sample scene text to summarize.\"}"
 
-curl -X POST http://127.0.0.1:5000/generate_scenario -H "Content-Type: application/json" -d '{"template": "In a futuristic city where {context}, the story unfolds as follows:", "context": "technology advances rapidly"}'
+curl -X POST http://127.0.0.1:5000/generate_scenario -H "Content-Type: application/json" -d "{\"template\": \"In a futuristic city where {context}, the story unfolds as follows:\", \"context\": \"technology advances rapidly.\"}"
 
-curl -X POST http://127.0.0.1:5000/extract_character_relationships -H "Content-Type: application/json" -d '{"script": "This is a sample script where characters interact with each other. Extract the relationships and interactions between characters."}'
+curl -X POST http://127.0.0.1:5000/extract_character_relationships -H "Content-Type: application/json" -d "{\"script\": \"This is a sample script where characters interact with each other. Extract the relationships and interactions between characters.\"}"
